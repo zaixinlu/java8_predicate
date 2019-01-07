@@ -65,6 +65,7 @@ public class ProjectFilter {
         data.add(new Project("","",0,"",""));
 
         List<Project> projects = filterJavaProjects(data);
+        System.out.println(projects.size());
 
         projects = filterLanguageProjects(data, "python");
         System.out.println(projects.size());
